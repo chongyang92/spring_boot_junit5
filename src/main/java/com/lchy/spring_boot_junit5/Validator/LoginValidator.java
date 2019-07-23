@@ -22,4 +22,12 @@ public class LoginValidator {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    @Override
+    public String toString() {
+        return "LoginValidator{" +
+                "loginName='" + loginName + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
